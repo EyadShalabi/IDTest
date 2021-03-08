@@ -136,7 +136,7 @@ public class BaseCardDetectionViewController: ObjectDetectionViewController {
             let cardOverlayLayer = CAShapeLayer()
             cardOverlayLayer.path = paths[i].cgPath
             cardOverlayLayer.fillColor = nil
-            cardOverlayLayer.strokeColor = corners[i] ? UIColor.green.cgColor : UIColor.white.cgColor
+            cardOverlayLayer.strokeColor = corners[i] ? UIColor.systemBlue.cgColor : UIColor.white.cgColor
             cardOverlayLayer.lineWidth = 6
             cardOverlayLayer.lineCap = CAShapeLayerLineCap.round
             view.layer.addSublayer(cardOverlayLayer)
