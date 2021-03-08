@@ -12,17 +12,17 @@
 		076279F025F6178C0034F3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076279EE25F6178C0034F3F4 /* Main.storyboard */; };
 		076279F225F6178D0034F3F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076279F125F6178D0034F3F4 /* Assets.xcassets */; };
 		076279F525F6178D0034F3F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076279F325F6178D0034F3F4 /* LaunchScreen.storyboard */; };
-		07627A0A25F617B50034F3F4 /* CardDetectionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076279FE25F617B50034F3F4 /* CardDetectionSettings.swift */; };
-		07627A0B25F617B50034F3F4 /* CardDetectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076279FF25F617B50034F3F4 /* CardDetectionViewController.xib */; };
-		07627A0C25F617B50034F3F4 /* CardDetectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0025F617B50034F3F4 /* CardDetectionViewControllerDelegate.swift */; };
-		07627A0D25F617B50034F3F4 /* CardDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0125F617B50034F3F4 /* CardDetectionViewController.swift */; };
-		07627A0E25F617B50034F3F4 /* DetectionOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0325F617B50034F3F4 /* DetectionOperations.swift */; };
-		07627A0F25F617B50034F3F4 /* ObjectDetectionSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0425F617B50034F3F4 /* ObjectDetectionSessionHandler.swift */; };
-		07627A1025F617B50034F3F4 /* BaseCardDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0525F617B50034F3F4 /* BaseCardDetectionViewController.swift */; };
-		07627A1125F617B50034F3F4 /* CMSampleBuffer+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0625F617B50034F3F4 /* CMSampleBuffer+CGImage.swift */; };
-		07627A1225F617B50034F3F4 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0725F617B50034F3F4 /* ObjectDetectionViewController.swift */; };
-		07627A1325F617B50034F3F4 /* TorchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A0825F617B50034F3F4 /* TorchSettings.swift */; };
 		07627A1A25F61AEF0034F3F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A1925F61AEF0034F3F4 /* SceneDelegate.swift */; };
+		07627A2825F61D700034F3F4 /* BaseCardDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A1D25F61D700034F3F4 /* BaseCardDetectionViewController.swift */; };
+		07627A2925F61D700034F3F4 /* DetectionOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A1E25F61D700034F3F4 /* DetectionOperations.swift */; };
+		07627A2A25F61D700034F3F4 /* CardDetectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07627A1F25F61D700034F3F4 /* CardDetectionViewController.xib */; };
+		07627A2B25F61D700034F3F4 /* ObjectDetectionSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2025F61D700034F3F4 /* ObjectDetectionSessionHandler.swift */; };
+		07627A2C25F61D700034F3F4 /* TorchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2125F61D700034F3F4 /* TorchSettings.swift */; };
+		07627A2D25F61D700034F3F4 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2225F61D700034F3F4 /* ObjectDetectionViewController.swift */; };
+		07627A2E25F61D700034F3F4 /* CMSampleBuffer+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2325F61D700034F3F4 /* CMSampleBuffer+CGImage.swift */; };
+		07627A2F25F61D700034F3F4 /* CardDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2525F61D700034F3F4 /* CardDetectionViewController.swift */; };
+		07627A3025F61D700034F3F4 /* CardDetectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2625F61D700034F3F4 /* CardDetectionViewControllerDelegate.swift */; };
+		07627A3125F61D700034F3F4 /* CardDetectionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07627A2725F61D700034F3F4 /* CardDetectionSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,18 +33,18 @@
 		076279F125F6178D0034F3F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076279F425F6178D0034F3F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		076279F625F6178D0034F3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		076279FE25F617B50034F3F4 /* CardDetectionSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetectionSettings.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/CardDetectionSettings.swift"; sourceTree = "<group>"; };
-		076279FF25F617B50034F3F4 /* CardDetectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardDetectionViewController.xib; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/CardDetectionViewController.xib"; sourceTree = "<group>"; };
-		07627A0025F617B50034F3F4 /* CardDetectionViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetectionViewControllerDelegate.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/CardDetectionViewControllerDelegate.swift"; sourceTree = "<group>"; };
-		07627A0125F617B50034F3F4 /* CardDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetectionViewController.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/CardDetectionViewController.swift"; sourceTree = "<group>"; };
-		07627A0225F617B50034F3F4 /* IDCardCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDCardCamera.h; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/IDCardCamera.h"; sourceTree = "<group>"; };
-		07627A0325F617B50034F3F4 /* DetectionOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetectionOperations.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/DetectionOperations.swift"; sourceTree = "<group>"; };
-		07627A0425F617B50034F3F4 /* ObjectDetectionSessionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectDetectionSessionHandler.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/ObjectDetectionSessionHandler.swift"; sourceTree = "<group>"; };
-		07627A0525F617B50034F3F4 /* BaseCardDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCardDetectionViewController.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/BaseCardDetectionViewController.swift"; sourceTree = "<group>"; };
-		07627A0625F617B50034F3F4 /* CMSampleBuffer+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSampleBuffer+CGImage.swift"; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/CMSampleBuffer+CGImage.swift"; sourceTree = "<group>"; };
-		07627A0725F617B50034F3F4 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectDetectionViewController.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/ObjectDetectionViewController.swift"; sourceTree = "<group>"; };
-		07627A0825F617B50034F3F4 /* TorchSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TorchSettings.swift; path = "../../../IDDetect/ID-Card-Camera/TestApp/IDCardCamera/TorchSettings.swift"; sourceTree = "<group>"; };
 		07627A1925F61AEF0034F3F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		07627A1D25F61D700034F3F4 /* BaseCardDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCardDetectionViewController.swift; sourceTree = "<group>"; };
+		07627A1E25F61D700034F3F4 /* DetectionOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionOperations.swift; sourceTree = "<group>"; };
+		07627A1F25F61D700034F3F4 /* CardDetectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardDetectionViewController.xib; sourceTree = "<group>"; };
+		07627A2025F61D700034F3F4 /* ObjectDetectionSessionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetectionSessionHandler.swift; sourceTree = "<group>"; };
+		07627A2125F61D700034F3F4 /* TorchSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchSettings.swift; sourceTree = "<group>"; };
+		07627A2225F61D700034F3F4 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
+		07627A2325F61D700034F3F4 /* CMSampleBuffer+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer+CGImage.swift"; sourceTree = "<group>"; };
+		07627A2425F61D700034F3F4 /* IDCardCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardCamera.h; sourceTree = "<group>"; };
+		07627A2525F61D700034F3F4 /* CardDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetectionViewController.swift; sourceTree = "<group>"; };
+		07627A2625F61D700034F3F4 /* CardDetectionViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetectionViewControllerDelegate.swift; sourceTree = "<group>"; };
+		07627A2725F61D700034F3F4 /* CardDetectionSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetectionSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,17 +92,17 @@
 		076279FD25F617970034F3F4 /* IDCamera */ = {
 			isa = PBXGroup;
 			children = (
-				07627A0525F617B50034F3F4 /* BaseCardDetectionViewController.swift */,
-				076279FE25F617B50034F3F4 /* CardDetectionSettings.swift */,
-				07627A0125F617B50034F3F4 /* CardDetectionViewController.swift */,
-				076279FF25F617B50034F3F4 /* CardDetectionViewController.xib */,
-				07627A0025F617B50034F3F4 /* CardDetectionViewControllerDelegate.swift */,
-				07627A0625F617B50034F3F4 /* CMSampleBuffer+CGImage.swift */,
-				07627A0325F617B50034F3F4 /* DetectionOperations.swift */,
-				07627A0225F617B50034F3F4 /* IDCardCamera.h */,
-				07627A0425F617B50034F3F4 /* ObjectDetectionSessionHandler.swift */,
-				07627A0725F617B50034F3F4 /* ObjectDetectionViewController.swift */,
-				07627A0825F617B50034F3F4 /* TorchSettings.swift */,
+				07627A1D25F61D700034F3F4 /* BaseCardDetectionViewController.swift */,
+				07627A2725F61D700034F3F4 /* CardDetectionSettings.swift */,
+				07627A2525F61D700034F3F4 /* CardDetectionViewController.swift */,
+				07627A1F25F61D700034F3F4 /* CardDetectionViewController.xib */,
+				07627A2625F61D700034F3F4 /* CardDetectionViewControllerDelegate.swift */,
+				07627A2325F61D700034F3F4 /* CMSampleBuffer+CGImage.swift */,
+				07627A1E25F61D700034F3F4 /* DetectionOperations.swift */,
+				07627A2425F61D700034F3F4 /* IDCardCamera.h */,
+				07627A2025F61D700034F3F4 /* ObjectDetectionSessionHandler.swift */,
+				07627A2225F61D700034F3F4 /* ObjectDetectionViewController.swift */,
+				07627A2125F61D700034F3F4 /* TorchSettings.swift */,
 			);
 			path = IDCamera;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07627A0B25F617B50034F3F4 /* CardDetectionViewController.xib in Resources */,
+				07627A2A25F61D700034F3F4 /* CardDetectionViewController.xib in Resources */,
 				076279F525F6178D0034F3F4 /* LaunchScreen.storyboard in Resources */,
 				076279F225F6178D0034F3F4 /* Assets.xcassets in Resources */,
 				076279F025F6178C0034F3F4 /* Main.storyboard in Resources */,
@@ -178,18 +178,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07627A0D25F617B50034F3F4 /* CardDetectionViewController.swift in Sources */,
-				07627A0A25F617B50034F3F4 /* CardDetectionSettings.swift in Sources */,
-				07627A1025F617B50034F3F4 /* BaseCardDetectionViewController.swift in Sources */,
-				07627A1325F617B50034F3F4 /* TorchSettings.swift in Sources */,
-				07627A0C25F617B50034F3F4 /* CardDetectionViewControllerDelegate.swift in Sources */,
-				07627A0E25F617B50034F3F4 /* DetectionOperations.swift in Sources */,
-				07627A1125F617B50034F3F4 /* CMSampleBuffer+CGImage.swift in Sources */,
-				07627A1225F617B50034F3F4 /* ObjectDetectionViewController.swift in Sources */,
+				07627A3125F61D700034F3F4 /* CardDetectionSettings.swift in Sources */,
 				076279ED25F6178C0034F3F4 /* ViewController.swift in Sources */,
 				076279E925F6178C0034F3F4 /* AppDelegate.swift in Sources */,
-				07627A0F25F617B50034F3F4 /* ObjectDetectionSessionHandler.swift in Sources */,
+				07627A2B25F61D700034F3F4 /* ObjectDetectionSessionHandler.swift in Sources */,
+				07627A3025F61D700034F3F4 /* CardDetectionViewControllerDelegate.swift in Sources */,
+				07627A2D25F61D700034F3F4 /* ObjectDetectionViewController.swift in Sources */,
+				07627A2F25F61D700034F3F4 /* CardDetectionViewController.swift in Sources */,
+				07627A2C25F61D700034F3F4 /* TorchSettings.swift in Sources */,
+				07627A2925F61D700034F3F4 /* DetectionOperations.swift in Sources */,
 				07627A1A25F61AEF0034F3F4 /* SceneDelegate.swift in Sources */,
+				07627A2825F61D700034F3F4 /* BaseCardDetectionViewController.swift in Sources */,
+				07627A2E25F61D700034F3F4 /* CMSampleBuffer+CGImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
