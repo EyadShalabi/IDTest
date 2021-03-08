@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="51d-Fb-HEx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pMY-Oh-9hh">
+            <objects>
+                <viewController id="51d-Fb-HEx" customClass="ViewController" customModule="IDTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R1A-Ni-3Ya">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXC-Mi-QX8">
+                                <rect key="frame" x="128" y="425" width="158" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Scan ID Card"/>
+                                <connections>
+                                    <action selector="startIDCardScan" destination="51d-Fb-HEx" eventType="touchUpInside" id="lYh-x7-pK0"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1mQ-wz-w6K">
+                                <rect key="frame" x="47" y="347" width="320" height="202"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="320" id="nUG-nF-wwR"/>
+                                    <constraint firstAttribute="width" secondItem="1mQ-wz-w6K" secondAttribute="height" multiplier="85.6:53.98" identifier="aspectRatio" id="xWs-L5-Xjp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Qaq-Lw-ybL" appends="YES" id="RjI-6z-TX8"/>
+                                </connections>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIH-3u-hgK">
+                                <rect key="frame" x="181.5" y="565" width="51" height="39"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="done" destination="51d-Fb-HEx" eventType="touchUpInside" id="Xca-3A-0iX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V3c-fE-CUG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1mQ-wz-w6K" firstAttribute="top" relation="greaterThanOrEqual" secondItem="V3c-fE-CUG" secondAttribute="top" constant="20" id="0Yn-iF-JlU"/>
+                            <constraint firstItem="DIH-3u-hgK" firstAttribute="top" secondItem="1mQ-wz-w6K" secondAttribute="bottom" constant="16" id="6ee-tl-wYt"/>
+                            <constraint firstItem="tXC-Mi-QX8" firstAttribute="centerY" secondItem="R1A-Ni-3Ya" secondAttribute="centerY" id="7YX-Fb-YHX"/>
+                            <constraint firstItem="DIH-3u-hgK" firstAttribute="centerX" secondItem="R1A-Ni-3Ya" secondAttribute="centerX" id="E8c-wJ-p15"/>
+                            <constraint firstItem="1mQ-wz-w6K" firstAttribute="centerX" secondItem="R1A-Ni-3Ya" secondAttribute="centerX" id="GI2-se-YEu"/>
+                            <constraint firstItem="1mQ-wz-w6K" firstAttribute="leading" secondItem="R1A-Ni-3Ya" secondAttribute="leadingMargin" priority="750" id="cym-0a-vIT"/>
+                            <constraint firstItem="1mQ-wz-w6K" firstAttribute="centerY" secondItem="R1A-Ni-3Ya" secondAttribute="centerY" id="nu7-qE-C68"/>
+                            <constraint firstItem="tXC-Mi-QX8" firstAttribute="centerX" secondItem="R1A-Ni-3Ya" secondAttribute="centerX" id="zTf-3H-g4X"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardImageView" destination="1mQ-wz-w6K" id="PBK-dW-Jzu"/>
+                        <outlet property="doneButton" destination="DIH-3u-hgK" id="SPw-rb-xsb"/>
+                        <outlet property="scanButton" destination="tXC-Mi-QX8" id="qeY-av-Ecs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SRn-r8-RaT" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Qaq-Lw-ybL">
+                    <connections>
+                        <action selector="startIDCardScan" destination="51d-Fb-HEx" id="btP-0X-wmy"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
